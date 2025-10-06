@@ -1,0 +1,52 @@
+/* Mobile Responsive Design */
+@media screen and (max-width: 768px) {
+    .hero-sec {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .Hero-img, .All-Text {
+        width: 100%;
+        float: none;
+    }
+
+    .Hero-img img {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .sec2-cards {
+        width: 100%;
+    }
+
+    .sec2-card {
+        width: 80%;
+        margin: 10px auto;
+        float: none;
+    }
+
+    .container3 {
+        width: 90%;
+    }
+
+    .img-div3, .text-cont3 {
+        width: 100%;
+        float: none;
+        margin: 20px 0;
+    }
+
+    .container4 {
+        width: 100%;
+    }
+
+    .s4-card1, .s4-card2, .s4-card3 {
+        width: 80%;
+        margin: 20px auto;
+        height: auto;
+    }
+
+    .s4-width {
+        width: 100%;
+        float: none;
+    }
+}
