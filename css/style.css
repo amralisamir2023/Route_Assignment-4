@@ -4,14 +4,15 @@
     padding: 0;
 }
 .hero-sec{
-  width: 90%;
-  margin: auto;
-  margin-top: 60px;
-  margin-left: 390px;
-  margin-bottom: 100px;
+  /* width: 90%; */
+  /* margin: auto; */
+  /* margin-top: 60px; */
+  /* margin-left: 390px; */
+  /* margin-bottom: 100px; */
 }
 .Container{
-    margin-left: 30px;
+    width: 85%;
+    margin: auto;
 }
 
 div img{
@@ -34,14 +35,15 @@ div img{
 }
 .Hero-img img{
     border-radius: 20px;
-    width: 50%;
+    width: 70%;
     margin-top: 20px;
-    margin-left: -200px;
+
 }
 
  .All-Text{
     width: 45%;
     margin-top: 20px;
+    margin-left: 10%;
 
  }
  /**** Buttons *****/
@@ -222,6 +224,12 @@ div img{
     border-radius: 50%;
     margin-right: 10px;
 }
+.a-h{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
 .s4-width{
     width: 25%;
 }
@@ -265,6 +273,122 @@ div img{
 .s4-card2 p{
     width: 100%;
 }
+/*******  Numbers sec *******/
+.c4-Numbers{
+    font-weight: 700px;
+    font-size: 36px;
+    margin-left: 50%;
+    width: 90%;
+    margin: auto;
+}
+.c4-Numbers Number{
+    width: 25%;
+    margin-left: 10px;
+}
+.c4-Numbers Number+{
+    width: 25%;
+    margin-left: 10px;
+}
+.Number p{
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.Number{
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.Numbers-container Number{
+    background-color: #0080ff;
+    border: solid 5px black;
+}
+/*********** Sec 5 ***********/
+.s4-container{
+    width: 90%;
+    margin: auto;
+}
+.s4-text{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.s4-text p{
+    text-align: center;
+    font-weight: 400px;
+    font-size: 20px;
+}
+.s4-text h3{
+    text-align: center;
+    font-weight: 700px;
+    font-size: 36px;
+}
+/* .l-name{
+    margin-left: 20px;
+} */
+.s4-form{
+    background-color: #F9FAFB;
+    border-radius: 10px;
+    padding: 30px;
+    overflow: hidden;
+    width: 55%;
+    margin: auto;
+}
+
+.f-name,
+.l-name {
+  width: 48%;
+  margin-bottom: 20px;
+}
+.email,
+.phone,
+.Membership-type,
+.Fitness-Goals {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-edit label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.form-edit input,
+.form-edit select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-edit p{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form-edit label{
+    width: 100%;
+}
+.f-name-label{
+    padding: 10px;
+}
+.s4-btn{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+
+
+
+
+
 
 
 
