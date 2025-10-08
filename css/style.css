@@ -383,15 +383,141 @@ div img{
     font-weight: 500px;
     font-size: 20px;
 }
+/*********** sec 5 ************/
+footer {
+    background-color: #1A1D24;
+    color: #FFFFFF;
+    padding: 60px 0 30px 0;
+    overflow: hidden;
+}
 
+.f-container {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
 
+/* Footer Main Content - Three Columns with Float */
+.fitcore {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
 
+.fitcore h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
 
+.fitcore p {
+    color: #B0B0B0;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
 
+.f-anchors {
+    overflow: hidden;
+}
 
+.f-anchors div {
+    float: left;
+    margin-right: 20px;
+}
 
+.f-anchors a {
+    color: #B0B0B0;
+    text-decoration: none;
+    font-size: 14px;
+}
 
+.f-anchors a:hover {
+    color: #FFFFFF;
+}
 
+.Quick-links {
+    width: 20%;
+    float: left;
+    margin-right: 5%;
+}
+
+.Quick-links h2 {
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.Quick-links p {
+    color: #B0B0B0;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.Quick-links p:hover {
+    color: #FFFFFF;
+}
+
+.Contact-info {
+    width: 30%;
+    float: left;
+}
+
+.Contact-info h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.Contact-info p {
+    color: #B0B0B0;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Footer Separator Line */
+.f-container hr {
+    border: none;
+    height: 1px;
+    background-color: #444444;
+    margin: 30px 0;
+    clear: both;
+}
+
+/* Footer Bottom Section */
+.the-end {
+    overflow: hidden;
+}
+
+.copy-right {
+    float: left;
+}
+
+.copy-right p {
+    color: #888888;
+    font-size: 14px;
+}
+
+.the-end-btns {
+    float: right;
+    overflow: hidden;
+}
+
+.the-end-btns p {
+    color: #888888;
+    font-size: 14px;
+    cursor: pointer;
+    float: left;
+    margin-left: 20px;
+}
+
+.the-end-btns p:hover {
+    color: #FFFFFF;
+}
 
 
 
